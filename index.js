@@ -15,11 +15,11 @@ image2.setAttribute("src" , randomDiceSrc2);
 
 
 if (randomNumber1 > randomNumber2) {
-    document.querySelector("h1").innerHTML = "Player 1 Won";
+    document.querySelector("h1").innerHTML = "Player 1 has Won";
 } 
 
 else if (randomNumber1 < randomNumber2) {
-    document.querySelector("h1").innerHTML = "Player 2 Won";
+    document.querySelector("h1").innerHTML = "Player 2 has Won";
 } 
 
 else {
